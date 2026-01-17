@@ -1,0 +1,428 @@
+=== SECTION 1 ===
+[WITAJ HARPER]
+Nazwa projektu:
+Cel projektu:
+Architektura główna:
+Najważniejsze zasady pracy:
+no i co zapiszesz?
+
+Can I type on the walls in my home? A teraz będę pisał po polsku. 
+
+
+asdfa ddfds 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 2 ===
+[AKTUALNY PRIORYTET]
+PRIORYTET:
+(Opisz, co jest teraz najważniejsze)
+
+Jeśli chcesz, możesz teraz napisać mi:
+co widzisz w terminalu,
+jaki jest dokładny path (np. PS C:\...>),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 3 ===
+[OSTATNI KROK WYKONANY]
+OSTATNI KROK:
+(Opisz ostatnią zakończoną czynność)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 4 ===
+[NASTĘPNY KROK]
+NASTĘPNY KROK:
+(Opisz, co robimy jako następne)
+
+
+
+=== SECTION 5 ===
+[LISTA OTWARTYCH ZADAŃ (TODO)]
+TODO:
+- [ ] Zadanie 1
+- [ ] Zadanie 2
+- [ ] Zadanie 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 6 ===
+[ZROBIONE (DONE)]
+DONE:
+- [x] Zakończone zadanie 1
+- [x] Zakończone zadanie 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 7 ===
+[STRUKTURA KODU / MODUŁÓW]
+MODUŁY:
+- Plik / moduł 1 — opis
+- Plik / moduł 2 — opis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 8 ===
+[DECYZJE ARCHITEKTONICZNE]
+DECYZJE:
+- Decyzja 1
+- Decyzja 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 9 ===
+[PROBLEMY / BŁĘDY DO ROZWIĄZANIA]
+PROBLEMY:
+- Problem 1
+- Problem 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== SECTION 10 ===
+[NOTATKI KONTEKSTOWE]
+NOTATKI:
+- Notatka 1
+- Notatka 2

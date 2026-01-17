@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Harper Editor — Sekcja 05</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preview.css">
+</head>
+<body>
+<header>
+    <h1>Sekcja 05 — - Aktualny priorytet</h1>
+    <nav id="nav"></nav>
+</header>
+
+<main>
+    <h2>Nagłówek projektu</h2>
+    <p>Tu opisujesz nazwę projektu, cel, architekturę i zasady pracy.</p>
+
+    <textarea id="editor"></textarea>
+    <button onclick="saveSection(5)">Zapisz teraz</button>
+    <div id="status" class="status"></div>
+
+    <h3 id="preview-title">Podgląd sekcji</h3>
+    <div id="preview">(ładowanie…)</div>
+</main>
+
+<script src="js/parser.js"></script>
+<script src="js/loader.js"></script>
+<script src="js/saver.js"></script>
+<script src="js/router.js"></script>
+
+<script>
+    const SECTION = 5;   // ← TU zmieniasz numer sekcji (1–10)
+
+    navLinks(SECTION);
+
+    async function refreshPreview() {
+        const text = await loadHarperFile();
+        const sections = parseSections(text);
+        document.getElementById('preview').textContent =
+            sections[SECTION - 1] || "";
+    }
+
+    async function loadAndPreview() {
+        await loadSection(SECTION);
+        await refreshPreview();
+    }
+
+    // Nadpisujemy saveSection, aby po zapisie odświeżyć podgląd
+    const originalSave = saveSection;
+    saveSection = async function(sectionIndex) {
+        await originalSave(sectionIndex);
+        await refreshPreview();
+    };
+
+    loadAndPreview();
+    setupAutoSave(SECTION);
+</script>
+
+</body>
+</html>
